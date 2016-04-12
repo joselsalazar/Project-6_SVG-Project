@@ -42,14 +42,6 @@ header {
     margin-right: 20px;
   }
 
-/* Microsoft Edge Browser 12+ (All) - @supports method */
-
-@supports (-ms-accelerator:true) {
-  header nav ul li { 
-    margin-right: -271px;; 
-  } 
-}
-
   header h1 {
     line-height: 1em;
   }
