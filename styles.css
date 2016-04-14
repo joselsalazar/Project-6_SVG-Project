@@ -6,6 +6,7 @@ body {
   font-weight: 300;
   color: #111;
   background: url('svgs/background.svg') #edeff0;
+  background-size: 53px 50px;
 }
 
 #container {
@@ -96,7 +97,7 @@ footer {
 =============================*/
 
   .corgi {
-    height: 100px;
+    height: 170px;
     margin-bottom: 10px;
   }
 
@@ -150,7 +151,9 @@ footer {
     fill: #BA8058;
   }
 
-  a .container:hover,
+  .top-links:hover #heart-c,
+  .top-links:hover #visit-c,
+  .top-links:hover #locations-c,
   a span:hover {
     fill: #111;
     animation: grow .5s ease-out;
